@@ -16,10 +16,8 @@ To install Node Store Manager, you need to have Node.js and MySQL installed on y
     
 3.  Create a MySQL and Seed database for the application:
 
-    `npm run seed && npm run migration `
-    
-    Replace `/path/to/node-store-manager/` with the actual path to the `database.sql` file in the cloned repository.
-    
+    `npm run migration && npm run seed`
+ 
 4.  Create a `.env` file in the root directory of the application with the following variables:
 
     `DB_HOST=localhost
