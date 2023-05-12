@@ -6,22 +6,13 @@ Node Store Manager is a backend application created using Node.js, Express, Sino
 
 To install Node Store Manager, you need to have Node.js and MySQL installed on your computer. Follow the steps below to install Node Store Manager:
 
-1.  Clone the repository from GitHub:
-    
-    bashCopy code
-    
+1.  Clone the repository from GitHub:   
     `git clone https://github.com/<your-username>/node-store-manager.git` 
     
 2.  Install the required dependencies using npm:
-    
-    Copy code
-    
     `npm install` 
     
-3.  Create a MySQL database for the application:
-    
-    shellCopy code
-    
+3.  Create a MySQL database for the application:    
     `mysql -u root -p
     mysql> CREATE DATABASE node_store_manager;
     mysql> USE node_store_manager;
@@ -31,9 +22,6 @@ To install Node Store Manager, you need to have Node.js and MySQL installed on y
     Replace `/path/to/node-store-manager/` with the actual path to the `database.sql` file in the cloned repository.
     
 4.  Create a `.env` file in the root directory of the application with the following variables:
-    
-    makefileCopy code
-    
     `DB_HOST=localhost
     DB_USER=root
     DB_PASS=yourpassword
@@ -45,19 +33,12 @@ To install Node Store Manager, you need to have Node.js and MySQL installed on y
 ## Usage
 
 To start the Node Store Manager application, run the following command:
-
-arduinoCopy code
-
 `npm run dev` 
-
 This will start the server at `http://localhost:3000`.
 
 ## Testing
 
 To run the tests for Node Store Manager, run the following command:
-
-bashCopy code
-
 `npm test` 
 
 This will run the tests using Mocha and Sinon.
